@@ -1,0 +1,152 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body{
+    background-color:#f4f4f4;
+    padding:40px;
+}
+
+/* Main Container */
+.container{
+    width:80%;
+    max-width:1000px;
+    margin:auto;
+    background-color:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+/* Main Heading */
+h1{
+    text-align:center;
+    color:#1f3c88;
+    margin-bottom:30px;
+}
+
+/* Profile Section */
+.profile{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin-bottom:30px;
+}
+
+/* Profile Image */
+.profile img{
+    width:160px;
+    height:180px;
+    object-fit:cover;
+    border-radius:50%;
+    border:5px solid #1f3c88;
+}
+
+/* Personal Details */
+.details h2{
+    color:#333333;
+    margin-bottom:15px;
+}
+
+.details p{
+    margin-bottom:10px;
+    color:#555555;
+    font-size:16px;
+}
+
+/* Sections */
+.section{
+    margin-top:35px;
+}
+
+.section h2{
+    color:#1f3c88;
+    border-bottom:2px solid #1f3c88;
+    padding-bottom:8px;
+    margin-bottom:15px;
+}
+
+/* Paragraph */
+.section p{
+    line-height:1.7;
+    color:#444444;
+}
+
+/* Skills, Projects, Hobbies */
+ul{
+    margin-left:25px;
+}
+
+li{
+    margin-bottom:10px;
+    color:#444444;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+table,
+th,
+td{
+    border:1px solid #cccccc;
+}
+
+th{
+    background-color:#1f3c88;
+    color:white;
+}
+
+th,
+td{
+    padding:12px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background-color:#f8f8f8;
+}
+
+/* Links */
+a{
+    color:#1f3c88;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+/* Responsive Design */
+@media(max-width:768px){
+
+    .container{
+        width:95%;
+        padding:20px;
+    }
+
+    .profile{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .profile img{
+        width:150px;
+        height:150px;
+    }
+
+    table{
+        font-size:14px;
+    }
+
+}
